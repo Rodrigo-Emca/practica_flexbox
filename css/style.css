@@ -81,8 +81,9 @@ header {
             color: var(--color-primario);
         }
 
-        .contenido-header a {
+        .contenido-header a { /* a es un elemento de linea, se pone uno al lado del otro. Normalmente no acepta margenes; necesitamos aplicarle inline block. */
             color: var(--color-primario);
+            text-decoration: none;
             font-size: 32px;
             font-weight: 600;
             margin: 12px 0 40px 0;
