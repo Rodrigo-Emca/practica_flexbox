@@ -89,3 +89,37 @@ header {
             margin: 12px 0 40px 0;
             display: inline-block; /* Le pongo inline block para que acepte los margenes, porque es un elemento de linea. */
         }
+
+    .info {
+        width: 1024px;
+        margin: 64px auto 0 auto;
+        display: flex;
+    }
+
+    .info article{
+        margin-left: 52px;
+        padding: 16px 0 0 24px;
+    }
+
+        .info article p {
+            text-align: justify;
+        }
+
+        .info article h2 {
+            margin-bottom: 24px;
+        }
+
+        .info article div {
+            background-repeat: no-repeat;
+            background-position: 0 center;
+            margin-top: 32px;
+            padding-left: calc(48px + 24px);
+        }
+
+        .info article div:nth-child(odd) {
+            background-image: url(../img/handshake.png);
+        }
+
+        .info article div:nth-child(even) {
+            background-image: url(../img/world.png);
+        }
